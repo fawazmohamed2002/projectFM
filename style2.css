@@ -1,0 +1,64 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav1{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+
+.box1{
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0.5)) ,url(" https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+/* box2 */
+
+.pic1{
+    height: 60vh;
+    background-image: url("https://static.wixstatic.com/media/84770f_18c6d298d33b42b1bed089144fa2892c~mv2_d_5553_3672_s_4_2.jpg/v1/crop/x_0,y_108,w_5553,h_3462/fill/w_979,h_610,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/GettyImages-961390960.jpg");
+    position: relative;
+    bottom: 20vh !important;
+    background-position: center;
+    background-size: cover;
+}
+
+.box1 p
+{
+    font-size: large;
+    letter-spacing: 5px;
+}
+
+.box1 h2{
+    color: orangered !important;
+}
+
+.pic2{
+    width: fit-content;
+    height: 80vh;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9) ), url("https://images.pexels.com/photos/242829/pexels-photo-242829.jpeg?auto=compress&cs=tinysrgb&w=1200");
+}
+
+.sub1 ,.sub2 ,.sub3 .sub4{
+    height: 30vh;
+    box-shadow: 2px 2px 5px black !important;
+}
+
+.sub1 , .sub2 ,.sub3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+
+.sub4{
+    background-color: orangered !important;
+}

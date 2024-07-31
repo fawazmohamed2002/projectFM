@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box !important;
+}
+
+.nav1{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.mainbox{
+    overflow: hidden;
+}
+
+.box1{
+    background-image: url("https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+
+.button1{
+    background-color: orangered !important;
+}
+/* box2 */
+.text1{
+    color: orangered !important;
+}
+
+
+/* box3 */
+.box3{
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7) ),url("https://images.pexels.com/photos/1715186/pexels-photo-1715186.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.text2{
+    color: orangered !important;
+}
+
+.c1{
+    height: 15vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+/* box4 */
+.box4{
+    position: relative;
+    bottom: 50px;
+}
+
+/* box5 */
+.para1{
+    line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+/* box6 */
+.box6{
+    height: 80vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url("https://images.pexels.com/photos/1915149/pexels-photo-1915149.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* box7 */
+.sub1 ,.sub2 ,.sub3 .sub4{
+    height: 30vh;
+    box-shadow: 2px 2px 5px black !important;
+}
+
+.sub1 , .sub2 ,.sub3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+
+.sub4{
+    background-color: orangered !important;
+}
